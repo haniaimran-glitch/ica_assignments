@@ -1,0 +1,10 @@
+Q- With the cleaned teaching file, compute the mean, the median and the first-to-last percentage change for each item. For each item, write which statistic you would report and why.
+ANS- For Oil B, I would report the median (324.00) because it is less affected by extreme values. For Pulse C, I would also report the median (206.00) since both the mean and median are almost the same. For Staple A, I would choose the median (111.75) as it gives a better idea of the central price without being too affected by unusually high or low values. For Sweetener D, I would report either the mean or median because both are exactly the same (166.75).
+Q- Using your Week 2 cleaned file, compute the mean and median of one item with and without a flagged value. Explain the difference.
+ANS- I used Sweetener D for this comparison. With the flagged value (9999), the mean was 576.81 and the median was 167.75. After removing the flagged value, the mean dropped to 167.15, while the median only changed slightly to 167.50. This shows that the flagged value had a huge impact on the mean, but barely affected the median. So, the mean is more sensitive to extreme values, whereas the median gives more accurate value.
+
+Referee Note:
+O:According to the data, prices increased for all four items, but the percentage increase was different for each one. Sweetener D had the highest increase of 23.83%, while Pulse C had the lowest increase of 6.75%.
+O:The mean and median were quite close for all four items. For Sweetener D, both values were exactly the same at 166.75.
+O:In the Week 2 data, the flagged value (9999) made a huge difference in the mean of Sweetener D. The mean was 576.81 with the flagged value(outlier) and dropped to 167.15 after removing it. However, the median only changed from 167.75 to 167.50.
+E:One possible explanation for this difference is that extreme values affect the mean more than the median.
